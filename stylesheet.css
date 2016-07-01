@@ -309,6 +309,10 @@ a:active {
 }
 
 /* PORTFOLIO */
+.section{
+    clear:both;
+}
+
 .gallery {
     margin: 5px;
     /*border: 2px solid #40667B;*/
@@ -343,8 +347,8 @@ a:active {
 }
 
 .gallery img:hover {
-  transform: scale(2.5,2.5);
-  transition: .3s transform;
+    transform: scale(2.5,2.5);
+    transition: .3s transform;
 }
 
 .vert {
@@ -352,9 +356,37 @@ a:active {
 }
 
 .vert img:hover {
-  transform: scale(3.5,3.5);
-  transition: .3s transform;
+    transform: scale(3.5,3.5);
+    transition: .3s transform;
 }
+
+
+.poster {
+    width: 230px;
+}
+
+.poster img:hover{
+    transform: scale(2,2);
+    transition: .3s transform;
+}
+
+.print {
+    width: 140px;
+}
+
+.print img:hover {
+    transform: scale(3,3);
+    transition: .3s transform;
+}
+
+.book {
+    width: 170px;
+}
+
+.comic {
+    width: 250px;
+}
+
 
 .cf:before, .cf:after {
   display: table;
