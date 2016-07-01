@@ -86,7 +86,7 @@ a:active {
     margin-left: 10%;
     height: auto;
     min-width: 500px;
-    max-width: 1000px;
+    max-width: 800px;
     position: absolute;
     float: left;
     display: inline-block;
@@ -299,3 +299,69 @@ a:active {
     height: auto;
 }
 
+.hthumbnail{
+    max-width: 150px;
+}
+
+.vthumbnail{
+    max-height: 150px;
+    max-width: inherit;
+}
+
+/* PORTFOLIO */
+.gallery {
+    margin: 5px;
+    /*border: 2px solid #40667B;*/
+    float: left;
+    width: 250px;
+}
+
+.gallery:hover {
+    /*border: 2px solid #cedce1;*/
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+
+}
+
+.gallery img:hover {
+  z-index: 1;
+}
+
+.gallery .desc {
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery img {
+
+  display: block;
+  transition: .1s transform;
+  transform: translateZ(1); /* hack */
+}
+
+.gallery img:hover {
+  transform: scale(2.5,2.5);
+  transition: .3s transform;
+}
+
+.vert {
+    width: 110px;
+}
+
+.vert img:hover {
+  transform: scale(3.5,3.5);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
