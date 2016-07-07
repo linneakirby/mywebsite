@@ -406,6 +406,10 @@ a:active {
     text-align: left;
 }
 
+.descr a{
+    border: 3px double;
+    padding: 2px;
+}
 
 .cf:before, .cf:after {
   display: table;
