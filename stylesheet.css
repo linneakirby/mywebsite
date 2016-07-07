@@ -388,6 +388,24 @@ a:active {
     width: 250px;
 }
 
+.screenshots {
+    width: 70%;
+    float: left;
+}
+
+.game {
+    width: 45%;
+}
+
+.descr {
+    margin: 5%;
+    margin-left: 0%;
+    margin-right: 10%;
+    width: 20%;
+    float: left;
+    text-align: left;
+}
+
 
 .cf:before, .cf:after {
   display: table;
