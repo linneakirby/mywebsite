@@ -401,6 +401,25 @@ a:active {
     width: 45%;
 }
 
+.bpl {
+    width: 45%;
+}
+
+.bpl img:hover {
+    transform: scale(1.8,1.8);
+    transition: .3s transform;
+}
+
+.crash {
+    width: 70%;
+    margin-left: 12%;
+}
+
+.crash img:hover {
+    transform: scale(1.5,1.5);
+    transition: .3s transform;
+}
+
 .horiz{
     width: 45%;
 }
