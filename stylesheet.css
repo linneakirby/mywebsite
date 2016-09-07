@@ -393,8 +393,51 @@ a:active {
     float: left;
 }
 
+.circshots {
+    width: 60%;
+}
+
 .game {
     width: 45%;
+}
+
+.horiz{
+    width: 45%;
+}
+
+.big{
+    width:100%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.big2{
+    width:175%;
+    margin-bottom: 7%;
+}
+
+.big2 img:hover {
+    transform: scale(1.4,1.4);
+    transition: .3s transform;
+}
+
+.big img:hover {
+    transform: scale(1.4,1.4);
+    transition: .3s transform;
+}
+
+.vert{
+    width: 49%;
+}
+
+.vert img:hover {
+    transform: scale(1.8,1.8);
+    transition: .3s transform;
+}
+
+iframe .small{
+    width: 200px;
+    height: 50%;
 }
 
 .descr {
@@ -404,6 +447,10 @@ a:active {
     width: 20%;
     float: left;
     text-align: left;
+}
+
+.circus{
+    width: 30%;
 }
 
 .cf:before, .cf:after {
