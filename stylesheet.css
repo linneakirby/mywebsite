@@ -401,6 +401,15 @@ a:active {
     width: 45%;
 }
 
+
+.gif{
+    width: auto;
+    max-width: 180px;
+    height: auto;
+    max-height: 320px;
+    float: center;
+}
+
 .bpl {
     width: 45%;
 }
@@ -466,6 +475,27 @@ iframe .small{
     width: 20%;
     float: left;
     text-align: left;
+}
+
+.bookdescr {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: auto;
+    float: left;
+    text-align: left;
+}
+
+.bookimg {
+    width: 45%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+}
+
+.bookimg img:hover {
+    transform: scale(1.8,1.8);
+    transition: .3s transform;
 }
 
 .circus{
