@@ -257,31 +257,31 @@ a:active {
     width:1px
 }
 
-#footer-box{
+/*#footer-box{
     width:100%;
     position:fixed;
     bottom:0
-}
+}*/
 
 #footer{
     background-color: #40667B;
     color: #f0f7f8;
     position:absolute;
-    bottom: 0;
+    height: 20px;
+    bottom: -10px;
     width:100%;
 }
 
-#footer-content{
-    position:fixed;
-    left:0;
+/*#footer-content{
+    position:absolute;
     bottom:0;
     height:30px;
     text-align: center;
     font-size:14px;
     line-height:20px;
     border-bottom-width:0px;
-    width:100%
-}
+    width:100%;
+}*/
 
 
 /* Sidebar */
